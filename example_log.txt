@@ -1,0 +1,78 @@
+2025-05-31 23:19:11 - [SERVER-START] Server started with pid: 35835
+2025-05-31 23:19:11 - [SERVER-INFO] Server listening on port: 5000
+2025-05-31 23:19:21 - [SERVER-INFO] A client is connected to sock=5
+2025-05-31 23:19:27 - [SERVER-INFO] sock: 5 was sent invalid username for creation
+2025-05-31 23:19:30 - [SERVER-INFO] sock: 5 was sent invalid username for creation
+2025-05-31 23:19:34 - [OK] Username: mete accepted.
+2025-05-31 23:19:34 - [SERVER-INFO] Messaging thread (TID: 35859) is created for mete.
+2025-05-31 23:19:34 - [THREAD-INFO (TID: 35859)] mete’s socketpair is created.
+2025-05-31 23:20:46 - [SERVER-INFO] A client is connected to sock=6
+2025-05-31 23:20:54 - [OK] Username: ahmet accepted.
+2025-05-31 23:20:54 - [SERVER-INFO] Messaging thread (TID: 35885) is created for ahmet.
+2025-05-31 23:20:54 - [THREAD-INFO (TID: 35885)] ahmet’s socketpair is created.
+2025-05-31 23:21:17 - [SERVER-INFO] A client is connected to sock=9
+2025-05-31 23:21:21 - [SERVER-INFO] sock: 9 was sent an already taken username for creation
+2025-05-31 23:21:24 - [OK] Username: yakar accepted.
+2025-05-31 23:21:24 - [SERVER-INFO] Messaging thread (TID: 35904) is created for yakar.
+2025-05-31 23:21:24 - [THREAD-INFO (TID: 35904)] yakar’s socketpair is created.
+2025-05-31 23:22:20 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /whisper command
+2025-05-31 23:22:20 - [THREAD-INFO (TID: 35904)] User 'yakar' sent whisper to mete
+2025-05-31 23:23:00 - [THREAD-INFO (TID: 35859)] User 'mete' sent /whisper command
+2025-05-31 23:23:00 - [THREAD-INFO (TID: 35859)] User 'mete' sent whisper to yakar
+2025-05-31 23:23:39 - [THREAD-INFO (TID: 35859)] User 'mete' sent /join command
+2025-05-31 23:23:39 - [THREAD-INFO (TID: 35859)] User 'mete' sent invalid room name teamchat1-
+2025-05-31 23:24:10 - [THREAD-INFO (TID: 35859)] User 'mete' sent /join command
+2025-05-31 23:24:10 - [THREAD-INFO (TID: 35859)] New room teamchat1 is created
+2025-05-31 23:24:10 - [THREAD-INFO (TID: 35859)] user mete is added to room teamchat1
+2025-05-31 23:24:10 - [THREAD-INFO (TID: 35859)] User 'mete' joined the room teamchat1.
+2025-05-31 23:24:29 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /join command
+2025-05-31 23:24:29 - [THREAD-INFO (TID: 35904)] user yakar is added to room teamchat1
+2025-05-31 23:24:29 - [THREAD-INFO (TID: 35904)] User 'yakar' joined the room teamchat1.
+2025-05-31 23:24:37 - [THREAD-INFO (TID: 35885)] User 'ahmet' sent /join command
+2025-05-31 23:24:37 - [THREAD-INFO (TID: 35885)] user ahmet is added to room teamchat1
+2025-05-31 23:24:37 - [THREAD-INFO (TID: 35885)] User 'ahmet' joined the room teamchat1.
+2025-05-31 23:24:53 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /broadcast command
+2025-05-31 23:25:41 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /whisper command
+2025-05-31 23:25:41 - [THREAD-INFO (TID: 35904)] User 'yakar' sent whisper to mete
+2025-05-31 23:26:26 - [THREAD-INFO (TID: 35859)] User 'mete' sent /join command
+2025-05-31 23:26:26 - [THREAD-INFO (TID: 35859)] username mete removed from room teamchat1
+2025-05-31 23:26:26 - [THREAD-INFO (TID: 35859)] New room teamchat2 is created
+2025-05-31 23:26:26 - [THREAD-INFO (TID: 35859)] user mete is added to room teamchat2
+2025-05-31 23:26:26 - [THREAD-INFO (TID: 35859)] User 'mete' joined the room teamchat2.
+2025-05-31 23:26:36 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /join command
+2025-05-31 23:26:36 - [THREAD-INFO (TID: 35904)] username yakar removed from room teamchat1
+2025-05-31 23:26:36 - [THREAD-INFO (TID: 35904)] user yakar is added to room teamchat2
+2025-05-31 23:26:36 - [THREAD-INFO (TID: 35904)] User 'yakar' joined the room teamchat2.
+2025-05-31 23:26:45 - [THREAD-INFO (TID: 35885)] User 'ahmet' sent /broadcast command
+2025-05-31 23:26:57 - [THREAD-INFO (TID: 35904)] User 'yakar' sent /broadcast command
+2025-05-31 23:27:31 - [THREAD-INFO (TID: 35885)] User 'ahmet' sent /leave command
+2025-05-31 23:27:31 - [THREAD-INFO (TID: 35885)] username ahmet removed from room teamchat1
+2025-05-31 23:27:31 - [THREAD-INFO (TID: 35885)] The room teamchat1 was deleted because there was no one left in the room
+2025-05-31 23:27:31 - [THREAD-INFO (TID: 35885)] User 'ahmet' left the room teamchat1.
+2025-05-31 23:27:48 - [THREAD-INFO (TID: 35885)] User 'ahmet' sent /exit command
+2025-05-31 23:27:48 - [THREAD-INFO (TID: 35885)] User "ahmet" has been disconnected and removed.
+2025-05-31 23:27:48 - [THREAD-INFO (TID: 35885)] Connection of ahmet is deleted
+2025-05-31 23:28:15 - [THREAD-INFO (TID: 35859)] User 'mete' closed the connection.
+2025-05-31 23:28:15 - [THREAD-INFO (TID: 35859)] username mete removed from room teamchat2
+2025-05-31 23:28:15 - [THREAD-INFO (TID: 35859)] User "mete" has been disconnected and removed.
+2025-05-31 23:28:15 - [THREAD-INFO (TID: 35859)] Connection of mete is deleted
+2025-05-31 23:28:53 - [SERVER-INFO] A client is connected to sock=12
+2025-05-31 23:28:54 - [OK] Username: mete accepted.
+2025-05-31 23:28:54 - [SERVER-INFO] Messaging thread (TID: 36026) is created for mete.
+2025-05-31 23:28:54 - [THREAD-INFO (TID: 36026)] mete’s socketpair is created.
+2025-05-31 23:28:57 - [SERVER-INFO] A client is connected to sock=5
+2025-05-31 23:28:58 - [OK] Username: ahmet accepted.
+2025-05-31 23:28:58 - [SERVER-INFO] Messaging thread (TID: 36029) is created for ahmet.
+2025-05-31 23:28:58 - [THREAD-INFO (TID: 36029)] ahmet’s socketpair is created.
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36026)] Connection of user 'mete' is over (recv error).
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36029)] Connection of user 'ahmet' is over (recv error).
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 35904)] Connection of user 'yakar' is over (recv error).
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36026)] User "mete" has been disconnected and removed.
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36026)] Connection of mete is deleted
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36029)] User "ahmet" has been disconnected and removed.
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 36029)] Connection of ahmet is deleted
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 35904)] username yakar removed from room teamchat2
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 35904)] The room teamchat2 was deleted because there was no one left in the room
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 35904)] User "yakar" has been disconnected and removed.
+2025-05-31 23:29:00 - [THREAD-INFO (TID: 35904)] Connection of yakar is deleted
+2025-05-31 23:29:00 - [SHUTDOWN] SIGINT received. Server exiting gracefully.
