@@ -30,8 +30,8 @@ This project implements:
 
 ```bash
 # Clone the repository
-git clone https://github.com/meteahmetyakar/final-chat-project.git
-cd final-chat-project
+git clone https://github.com/meteahmetyakar/Chat-App-in-C.git
+cd Chat-App-in-C
 
 # Build server and client
 make all
