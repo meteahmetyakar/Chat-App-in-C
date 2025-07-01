@@ -16,7 +16,7 @@ This project implements:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](docs/architecture.png)
+<img src="https://github.com/meteahmetyakar/Chat-App-in-C/blob/main/images/architecture-diagram.png"/>
 
 1. **chatserver** listens for new TCP connections.
 2. For each client, spawns a **client_handler** thread (socket + username handshake).
